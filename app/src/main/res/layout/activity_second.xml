@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".second_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/blue"
+        android:layout_height="100dp">
+
+
+        <ImageButton
+            android:layout_width="80dp"
+            android:src="@drawable/back"
+            android:background="@color/blue"
+            android:layout_marginTop="20dp"
+            android:id="@+id/back_btn"
+            android:layout_height="60dp">
+
+        </ImageButton>
+    </LinearLayout>
+
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/sec_image"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_marginLeft="80dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/sec_title"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_below="@id/sec_image">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_marginLeft="80dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/sec_subtitle"
+        android:layout_marginTop="15dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_below="@id/sec_title">
+
+    </TextView>
+
+
+
+
+
+</RelativeLayout>
