@@ -12,6 +12,7 @@
      android:layout_marginTop="10dp"
      android:layout_height="wrap_content"
      android:background="@drawable/raduis_corner"
+     android:backgroundTint="@color/aqua"
      android:iconifiedByDefault="false"
      android:queryHint="Rechercher un film" />
 
